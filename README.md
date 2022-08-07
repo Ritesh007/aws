@@ -1,4 +1,4 @@
-# AWS Certification notes
+# AWS Certification Notes
 
 ## AWS Certified Solutions Architect - Associate (SAA-C02)
 
