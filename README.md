@@ -1,6 +1,6 @@
-# AWS certification notes
+# AWS Certification notes
 
-## AWS Solutions architect associate 
+## AWS Certified Solutions Architect - Associate (SAA-C02)
 
 - ### [S3](https://github.com/Ritesh007/aws/tree/main/solutionsarchitect_associate/s3)
 
