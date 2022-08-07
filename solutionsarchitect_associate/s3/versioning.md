@@ -1,0 +1,6 @@
+- Can be suspended not disabled
+- works with MFA
+- By default old version are private, can be made public
+- If you delete the object old versions are not deleted yet
+- Works well with lifecycle rules
+- Good for backups

@@ -1,0 +1,3 @@
+- s3 url format - https://<bucket_name>.s3.<region>.amazonaws.com/key
+- S3 availability - 99.95-99.99%
+- 99.999999999%(11 9's) durability
