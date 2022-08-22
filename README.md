@@ -37,3 +37,9 @@
 - ### [Migration](https://github.com/Ritesh007/aws/tree/main/solutionsarchitect_associate/migration)
 
 - ### [Exam Prep](https://github.com/Ritesh007/aws/tree/main/solutionsarchitect_associate/examprep)
+
+## AWS Certified DevOps Professional
+
+- ### [Exam Format](https://github.com/Ritesh007/aws/tree/main/devops_professional/exam-format.md)
+
+- ### [SDLC automation](https://github.com/Ritesh007/aws/tree/main/devops_professional/sdlc.md) 
