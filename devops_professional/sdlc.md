@@ -117,7 +117,52 @@
   - __Deployment Group__: Is where we mention on where to deploy and service roles
     - You can associate more than one deployment group with an application in CodeDeploy
   - __Deployment configuration__: Tells how to deploy 
-- To use ec2 or on-premise we need to install CodeDeploy agents on the instances
+- __To use ec2 or on-premise we need to install CodeDeploy agents on the instances__
 
-### CodeDeploy Application, Deployment Groups and Deployment Configurations 
+### appsec.yml
+- This is a yaml or json formatted file
+- Defines the specifications for the deployment
+- appspec.yml or appspec.yaml should be in the root directory of the source code
+- Helps in running lifecycle events during deployment - using 'hooks'
+  - __Hooks__:
+  - BeforeInstall: "BeforeInstallHookFunctionName"
+  - AfterInstall: "AfterInstallHookFunctionName"
+  - AfterAllowTestTraffic: "AfterAllowTestTrafficHookFunctionName"
+  - BeforeAllowTraffic: "BeforeAllowTrafficHookFunctionName"
+  - AfterAllowTraffic: "AfterAllowTrafficHookFunctionName"
+- __Think about appspec file and hooks in appspec file to run custom actions during deployment__
+
+
+## CodePipeline:
+### Overview:
+- AWS managed CD service
+- Automated the deployment pipelines
+- __Source stage__:
+  - Mandatory 
+  - Supported sources: ECR, CodeCommit, Bitbucket, GitHub, GitHub Enterprise, S3
+- __Build stage__:
+  - Build or Deploy stage, anyone is mandatory
+  - Supported: Jenkins, CodeBuild
+  - __Jenkins needs an AWS plugin__
+- __Deploy Stage__:
+  - Build or Deploy stage, anyone is mandatory
+  - Supported: CodeDeploy, ECS, Cloudformation, Service Catalog, Cloudformation StackSet, AppConfig, S3, EBS, OpsWork stack, Alexa Skill Set
+
+### CodePipeline Continuous Delivery and Approval Actions
+- __We can add approval actions in our pipeline__
+- __Approvals can be added within a stage or between stages__
+
+### CodePipeline with EventBridge
+- __EventBridge can work in any stage in the pipeline__
+
+### Jenkins with AWS Developer Tools
+- Jenkins is an open source CI/CD tool
+- Jenkins can replace CodeBuild or CodePipeline or CodeDeploy
+- Jenkins interacts with AWS using AWS plugins
+- Jenkins working model - master slave model
+- __Jenkins plugin for CodeBuild can be used to trigger codebuild from jenkins jobs__
+
+
+## SDLC Automation Scenarios:
+- __For any question in the exam try to visualize the flow in you mind, some questions may need notepad for visualization__
 - 

@@ -43,3 +43,5 @@
 - ### [Exam Format](https://github.com/Ritesh007/aws/tree/main/devops_professional/exam-format.md)
 
 - ### [SDLC automation](https://github.com/Ritesh007/aws/tree/main/devops_professional/sdlc.md) 
+
+- ### [Configuration Management and IAC ](https://github.com/Ritesh007/aws/tree/main/devops_professional/configurationmanagement-IAC.md) 
