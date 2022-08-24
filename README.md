@@ -1,4 +1,5 @@
 # AWS Certification Notes
+- Hosted on GitHub pages - [www.technologytickles.com](https://www.technologytickles.com)
 
 ## AWS Certified Solutions Architect - Associate (SAA-C02)
 
