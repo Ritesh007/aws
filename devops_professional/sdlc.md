@@ -165,4 +165,3 @@
 
 ## SDLC Automation Scenarios:
 - __For any question in the exam try to visualize the flow in you mind, some questions may need notepad for visualization__
-- 
