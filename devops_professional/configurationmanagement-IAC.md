@@ -100,4 +100,8 @@
 
 ## API Gateway:
 ### Overview
+- Rest API's: Think of this as one-way communication
+- WebSocket: It's a 2 way communication
+
+### REST vs Websocket
 - 
