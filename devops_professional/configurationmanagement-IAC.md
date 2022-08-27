@@ -80,6 +80,7 @@
 #### Exam Tips
 - SAM syntax is Cloudformation - only yaml not json
 
+
 ## Step Functions:
 ### Overview
 - AWS Step Functions help us implement State Machines
@@ -98,10 +99,29 @@
       They can run for up to five minutes
 - __Step functions allow human approval__
 
+
 ## API Gateway:
 ### Overview
-- Rest API's: Think of this as one-way communication
-- WebSocket: It's a 2 way communication
+- HTTP:
+  - __Cheaper and faster than REST__
+  - Supports lambda and HTTP
+  - __Doesn't have all features as REST__
+- Rest APIs: 
+  - __Think of this as one-way communication (request and response model)__
+  - A response can't happen without a request
+  -  Supports lambda, HTTP and AWS Services
+- WebSocket:
+  - __A 2 way channel__
+  - A response can be sent without a request
+- __API gateway can be integrated with lambda irrespective of lambda is in a VPC or not__
+- __To connect to other private resources in a VPC, we need to create VPC links in API Gateway__
 
-### REST vs Websocket
+### API Gateway with Lambda Proxy integration
+- Enabling this while setting up API Gateway and lambda integration:
+  - requests will be proxied to Lambda with request details available in the events of the lambda handler
+- __For API gateway to access lambda - a lambda resource based policy should be added__
+
+
+## Cloudformation:
+### Overview
 - 
