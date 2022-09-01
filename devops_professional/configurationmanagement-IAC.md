@@ -124,4 +124,93 @@
 
 ## Cloudformation:
 ### Overview
+- It's IAC
+- First line in CloudFormation - AWSTemplateFormatVersion
+- Resources is the only mandatory section 
+- Template:
+  - AWSTemplateFormatVersion (optional)
+  - Description (optional)
+  - [MetaData](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/metadata-section-structure.html): (optional)template implementation details about specific resources
+  - Mapping(optional)
+  - Parameters(optional)
+  - Resources -> Only required section in cloudformation 
+  - Outputs(optional)
+  - Conditions (optional)
+  - Rules(optional): validates a parameter or a combination of parameters passed to a template during a stack creation or stack update
+  - Transform(optional):
+    - For SAM
+    - and other purpose is to include extra code into our template
+
+### Cloudformation intrinsic functions
+- Key intrinsic functions 
+  - Ref
+  - Fn::GetAtt
+  - Fn::FindInMap
+  - Fn::ImportValue
+  - Fn::Join
+  - Fn::Sub
+  - Conditional Functions 
+
+### Cloudformation wait conditions and creation policies
+- __Wait conditions__:
+  - Pause the execution of the stack creation till success signal is received 
+  - Syntax:
+    - WaitHandle:
+        Type: AWS::CloudFormation::WaitConditionHandle
+      WaitCondition:
+        Type: AWS::CloudFormation::WaitCondition
+      Properties:
+        Count: Integer
+        Handle: !Ref 'WaitHandle'
+        Timeout: String
+  - __Creation policies__: 
+    - Similar to wait condition, but instead of being a separate resource like wait condition, these are attributes in a resource
+  - Syntax:
+    - CreationPolicy:
+        ResourceSignal:
+          Count: '3'
+          Timeout: PT15M
+  - Creation policies are preferred for ec2's and auto-scaling groups
+
+### [CloudFormation Helper Scripts](https://catalog.workshops.aws/cfn101/en-US/basics/operations/helper-scripts)
+- AWS CloudFormation provides the following Python helper scripts that you can use to install software 
+  and start services on an Amazon EC2 instance that you create as part of your stack:
+  - cfn-init: Use to retrieve and interpret resource metadata, install packages, create files, and start services.
+  - cfn-signal: Use to signal with a CreationPolicy or WaitCondition, so you can synchronize other resources in the stack when the prerequisite resource or application is ready.
+  - cfn-get-metadata: Use to retrieve metadata for a resource or path to a specific key.
+  - cfn-hup: Use to check for updates to metadata and execute custom hooks when changes are detected.
+- __Used in ec2 user data__
+- __Works with metadata section in the template__
+
+### CloudFormation Stack Protection 
+- There are 4 ways to do it
+  - Enable Termination protection on the Stack
+  - Stack level policies 
+  - Resource level policies 
+  - IAM policies 
+
+### Updating CloudFormation Stacks 
+- Direct updates 
+- Change sets
+
+### CloudFormation nested stacks and cross stack references 
+
+### CloudFormation Drift detection and remediation 
+- If there are changes to the infrastructure from outside the stack that is called Drift
+- Detect Drift 
+  - From AWS Console drift detection in the cloudformation service
+  - Using AWS Config
+
+### [CloudFormation custom resources](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cfn-customresource.html#cfn-customresource-servicetoken) 
+- In a CloudFormation template, you use the AWS::CloudFormation::CustomResource or Custom::String resource type to specify custom resources.
+- Custom resources provide a way for you to write custom provisioning logic in CloudFormation template and have 
+  CloudFormation run it during a stack operation, such as when you create, update or delete a stack.
+
+
+## OpsWorks Essentials
+### Overview
 - 
+
+
+
+
