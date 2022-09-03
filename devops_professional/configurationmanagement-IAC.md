@@ -209,8 +209,48 @@
 
 ## OpsWorks Essentials
 ### Overview
+- Provide managed instances for Chef and Puppet
+- OpsWork Stack:
+  - A stack is a set of layers, instances and related AWS resources whose configuration you want to manage together.
+  - Every stack contains at least one layer
+  - example - layer1 has a load balancer, layer2 has ec2 instances, layer3 is RDS
+- Stacks: A set of resources we want to manage as a group . Use case : can build a stack for dev , staging , production
+- Layers: Used to represent and configure components of a stack . Example : a layer for load balancer , a layer for web app , and a
+  layer for database
+- Instances: Relates to at least one layer
+- Apps: deploy applications on the instances, chef/puppet help in preparing the instances to run the application
+
+### Creation steps
+- Create Stack
+- Add layer
+- Create instance 
+- ADD apps
+- deploy apps using chef/puppet recipes/cookbooks
+
+### OpsWorks Flavors
+- OpsWorks Stack: Define, group, provision, deploy, and operate your applications in AWS by using Chef in local mode.
+- OpsWorks for chef automate: Create Chef servers that include Chef Automate premium features, and use the Chef DK or any Chef tooling to manage them.
+- OpsWorks for Puppet Enterprise: Create Puppet servers that include Puppet Enterprise features. Inspect, deliver, update, monitor, and secure your infrastructure.
+
+### Deployment Strategies with OpsWorks
+- Each Layer in ops works have 5 life cycle events
+  - Setup
+  - Configure
+  - Deploy
+  - undeploy
+  - Shutdown
+- based on the lifecycle events ops work runs recipes 
+- Deployment strategies for Ops works
+  - Manual
+  - Rolling
+  - BlueGreen
+
+### Exam Tips
+- Ops integrates with Core aws services not all like cloudformation
+
+
+## ECS
+### Overview
 - 
-
-
 
 
