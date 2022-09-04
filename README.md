@@ -8,3 +8,5 @@
 - ### [SDLC automation](https://www.technologytickles.com/devops_professional/sdlc) 
 
 - ### [Configuration Management and IAC ](https://www.technologytickles.com/devops_professional/configurationmanagement-IAC) 
+
+- ### [Monitoring And Logging](https://www.technologytickles.com/devops_professional/monitoring)

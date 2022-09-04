@@ -237,7 +237,7 @@
   - Setup
   - Configure
   - Deploy
-  - undeploy
+  - UnDeploy
   - Shutdown
 - based on the lifecycle events ops work runs recipes 
 - Deployment strategies for Ops works
@@ -247,10 +247,17 @@
 
 ### Exam Tips
 - Ops integrates with Core aws services not all like cloudformation
+- Use time based scaling and load balancing scaling for serving traffic based on demand
+- time based scaling in ops work tells when to scale up and scale down based on the time
 
 
 ## ECS
 ### Overview
-- 
+- Task definitions: all the details related to container definitions 
+- Service: How many tasks to run at a time
+- Cluster
+
+### Fargate Overview
+
 
 
