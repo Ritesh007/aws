@@ -36,3 +36,7 @@
   - Log agent
   - Retention policies
   - Metric filters
+
+## CloudTrail:
+### Overview
+- 
