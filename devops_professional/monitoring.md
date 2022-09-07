@@ -39,4 +39,11 @@
 
 ## CloudTrail:
 ### Overview
+- Used for auditing on AWS --> CloudTrail records API activity
+- __CloudTrail logs are stored in S3__
+- __Enable log file validation__: To determine whether a log file was modified, deleted, or unchanged after AWS CloudTrail delivered it
+- __CloudTrail can send logs to CloudWatch__
+
+## Kinesis:
+### Overview
 - 
