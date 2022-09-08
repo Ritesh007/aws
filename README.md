@@ -10,3 +10,5 @@
 - ### [Configuration Management and IAC ](https://www.technologytickles.com/devops_professional/configurationmanagement-IAC) 
 
 - ### [Monitoring And Logging](https://www.technologytickles.com/devops_professional/monitoring)
+
+- ### [Incident And Event Response](https://www.technologytickles.com/devops_professional/incidentandeventresponse)
