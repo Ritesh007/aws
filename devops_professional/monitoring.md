@@ -51,7 +51,7 @@
 - __Types of Kinesis__ 
   - Kinesis Video stream: 
     - stream videos real time
-  - Kinesis Data streams:
+  - Kinesis Data stream:
     - Collect gigabytes of data per second and make it available for processing and analyzing in real time
   - Kinesis Data Firehose:
     - Process and deliver data streams
@@ -63,5 +63,17 @@
 
 
 ### XRay:
+### Overview
+- AWS X-Ray makes it easy for developers to analyze the behavior of their distributed applications by providing request tracing, exception collection, and profiling capabilities
+- Implementation:
+  - XRAY SDK -> XRAY DAEMON -> XRAY API 
+- XRAY Color codes 
+  - Green - success
+  - Red - server fault 
+  - Yellow - client fault 
+  - Purple - Throttling error
+
+
+### AWS OpenSearch (Elasticsearch):
 ### Overview
 - 
