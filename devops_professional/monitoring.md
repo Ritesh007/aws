@@ -39,11 +39,29 @@
 
 ## CloudTrail:
 ### Overview
-- Used for auditing on AWS --> CloudTrail records API activity
+- Used for auditing on AWS --> __CloudTrail records API activity__
 - __CloudTrail logs are stored in S3__
 - __Enable log file validation__: To determine whether a log file was modified, deleted, or unchanged after AWS CloudTrail delivered it
 - __CloudTrail can send logs to CloudWatch__
 
 ## Kinesis:
+### Overview
+- When you see real time data flow think of Kinesis
+- Collect, process, analyze, stream data real time
+- __Types of Kinesis__ 
+  - Kinesis Video stream: 
+    - stream videos real time
+  - Kinesis Data streams:
+    - Collect gigabytes of data per second and make it available for processing and analyzing in real time
+  - Kinesis Data Firehose:
+    - Process and deliver data streams
+    - Amazon Kinesis Data Firehose is the easiest way to capture, transform, and load data streams into 
+      AWS data stores for near real-time analytics with existing business intelligence tools
+    - Does ETL for the data
+  - Kinesis Data Analytics :
+    - Analyze streaming data and gain actionable insights in real time
+
+
+### XRay:
 ### Overview
 - 
