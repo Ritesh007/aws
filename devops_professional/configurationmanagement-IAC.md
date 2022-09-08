@@ -249,6 +249,7 @@
 - Ops integrates with Core aws services not all like cloudformation
 - Use time based scaling and load balancing scaling for serving traffic based on demand
 - time based scaling in ops work tells when to scale up and scale down based on the time
+- Can auto heal instances - layer level
 
 
 ## ECS
