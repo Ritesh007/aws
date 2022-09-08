@@ -62,7 +62,7 @@
     - Analyze streaming data and gain actionable insights in real time
 
 
-### XRay:
+## XRay:
 ### Overview
 - AWS X-Ray makes it easy for developers to analyze the behavior of their distributed applications by providing request tracing, exception collection, and profiling capabilities
 - Implementation:
@@ -78,5 +78,11 @@
 ### Overview
 - Amazon OpenSearch Service domains are OpenSearch/Elasticsearch clusters
 - Provides realtime analytics 
+
+
+## Tagging and Resource Groups
+### Overview:
+- Tagging and Resource Groups can be used for automations 
+
 
 
