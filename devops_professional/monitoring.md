@@ -76,4 +76,7 @@
 
 ### AWS OpenSearch (Elasticsearch):
 ### Overview
-- 
+- Amazon OpenSearch Service domains are OpenSearch/Elasticsearch clusters
+- Provides realtime analytics 
+
+
