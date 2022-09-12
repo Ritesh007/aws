@@ -44,6 +44,8 @@
 
 ## Security Hub:
 - Cloud security poster management
+- Get a consolidated view from all the finding from guard duty, inspector and macie
+- Can be integrated with systems manger for auto remediation 
 
 ## Trusted Advisor:
 - Provides recommendations on best practices
