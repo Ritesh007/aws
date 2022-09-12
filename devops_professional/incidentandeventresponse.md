@@ -42,7 +42,11 @@
   in Amazon Elastic Container Registry (Amazon ECR) for software vulnerabilities and unintended network exposure
 - Can interact with Lambda and SNS for automation 
 
+## Security Hub:
+- Cloud security poster management
 
-## Kinesis and event driven automation:
-### Overview
-- 
+## Trusted Advisor:
+- Provides recommendations on best practices
+
+## AWS Config:
+- Compliance and auditing 

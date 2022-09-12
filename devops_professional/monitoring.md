@@ -58,6 +58,7 @@
     - Amazon Kinesis Data Firehose is the easiest way to capture, transform, and load data streams into 
       AWS data stores for near real-time analytics with existing business intelligence tools
     - Does ETL for the data
+    - Stream data to aws redshift, s3, Elastic search and splunk
   - Kinesis Data Analytics :
     - Analyze streaming data and gain actionable insights in real time
 
