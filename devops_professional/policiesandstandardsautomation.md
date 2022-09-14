@@ -9,7 +9,8 @@
 - No additional billing for Organizations but the owner of the management account pays for the bills on the accounts in it
 - __Service control policies (SCPs)__ are a type of organization policy that you can use to manage permissions in your organization.
   __SCPs offer central control over the maximum available permissions for all accounts in your organization__
-- AWS Cloudformation StackSets and aws service catalog helps in automating deployments across accounts in an organization
+- __AWS Cloudformation StackSets and AWS Service Catalog helps in automating deployments across accounts in an organization__
+
 
 ## Trusted Advisor for policies and standards:
 ### Overview
@@ -25,6 +26,18 @@
   - Business
   - Enterprise
 
+
+## Service Catalog for organizational control:
+### Overview
+- Consists of a catalog of products, which are basically cloudformation templates we can upload
+- Then we can deploy this products by passing input parameters 
+- Key terms:
+  - __Portfolios__: collection of products 
+
+
+## Systems manager Introduction and Setup:
+### Overview
+- 
 
 
 
