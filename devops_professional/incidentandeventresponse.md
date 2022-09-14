@@ -52,3 +52,7 @@
 
 ## AWS Config:
 - Compliance and auditing 
+
+## Personal Health Dashboard:
+- The Personal Health Dashboard provides alerts and guidance for AWS events that might affect your environment
+

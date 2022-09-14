@@ -206,6 +206,9 @@
 - Custom resources provide a way for you to write custom provisioning logic in CloudFormation template and have 
   CloudFormation run it during a stack operation, such as when you create, update or delete a stack.
 
+### Stacksets
+- AWS CloudFormation StackSets extends the capability of stacks by 
+  enabling you to create, update, or delete stacks across multiple accounts and AWS Regions with a single operation
 
 ## OpsWorks Essentials
 ### Overview

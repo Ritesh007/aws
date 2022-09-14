@@ -12,3 +12,5 @@
 - ### [Monitoring And Logging](https://www.technologytickles.com/devops_professional/monitoring)
 
 - ### [Incident And Event Response](https://www.technologytickles.com/devops_professional/incidentandeventresponse)
+
+- ### [Policies and Standards Automations](https://www.technologytickles.com/devops_professional/policiesandstandardsautomation)
