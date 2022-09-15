@@ -37,6 +37,22 @@
 
 ## Systems manager Introduction and Setup:
 ### Overview
+- __What does it do?__
+  - Group AWS resources in resource group ----> create these resourse groups with resource tags
+  - View aggregated data
+  - Take action (automated and manual) on the resources 
+- Systems manager supports
+  - Operation management
+  - Change management
+  - Node management
+  - Application management
+  - shared resources 
+- __Works with on-premise/ec2 servers as well, need to ssm install agent on it__
+
+### Systems Manager configuration for compliance 
+- Using AWS Config, EventBridge, SSM Patch manager, SSM State manager, SSM Run command we can accomplish this
+
+### Systems Manager Run Command
 - 
 
 
