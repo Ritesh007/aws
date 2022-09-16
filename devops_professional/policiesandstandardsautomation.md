@@ -73,7 +73,14 @@
 
 ## AWS Macie:
 ### Overview
-- 
+- Analyzes and helps you protect data in your s3 buckets 
+
+
+## AWS Secrets Manager:
+
+
+## Policies and Standards Automation Scenarios:
+
 
 
 
