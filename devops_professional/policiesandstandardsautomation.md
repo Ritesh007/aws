@@ -60,12 +60,18 @@
 ### Systems Manager Parameter Store
 
 ### Systems Manager Automation
-- Fleet-wide automation for common administration tasks
+- Fleet-wide automation for common administration tasks using predefined/custom runbooks (Automation documents)
 
 ### Systems Manager Patch Management
 
 
 ## AWS Config:
+### Overview
+- Access, audit our aws resource configurations 
+- Can get configs across accounts and regions
+
+
+## AWS Macie:
 ### Overview
 - 
 
