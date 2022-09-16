@@ -38,7 +38,7 @@
 ## Systems manager Introduction and Setup:
 ### Overview
 - __What does it do?__
-  - Group AWS resources in resource group ----> create these resourse groups with resource tags
+  - Group AWS resources in resource group ----> create these resource groups with resource tags
   - View aggregated data
   - Take action (automated and manual) on the resources 
 - Systems manager supports
@@ -53,7 +53,25 @@
 - Using AWS Config, EventBridge, SSM Patch manager, SSM State manager, SSM Run command we can accomplish this
 
 ### Systems Manager Run Command
+- AWS Systems Manager Run Command lets you remotely and securely manage the configuration of your managed instances
+- __You can restrict command execution to specific managed nodes by creating an IAM user policy that includes a 
+  condition that the user can only run commands on nodes with specific tags__
+
+### Systems Manager Parameter Store
+
+### Systems Manager Automation
+- Fleet-wide automation for common administration tasks
+
+### Systems Manager Patch Management
+
+
+## AWS Config:
+### Overview
 - 
+
+
+
+
 
 
 
