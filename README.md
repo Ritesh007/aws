@@ -14,3 +14,5 @@
 - ### [Incident And Event Response](https://www.technologytickles.com/devops_professional/incidentandeventresponse)
 
 - ### [Policies and Standards Automations](https://www.technologytickles.com/devops_professional/policiesandstandardsautomation)
+
+- ### [High Availability, Fault Tolerance, and Disaster Recovery](https://www.technologytickles.com/devops_professional/HA_FT_DR)
