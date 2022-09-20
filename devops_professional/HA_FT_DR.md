@@ -1,7 +1,7 @@
 # High Availability, Fault Tolerance, and Disaster Recovery
 
-## Auto Scaling Launch Templates:
-### Overview
+## AutoScaling:
+### Auto Scaling Launch Templates
 - Launch templates (LTs) are newer than launch configurations (LCs) and 
   provide more options to work with. Thus, the AWS documentation recommends 
   use of launch templates (LTs) over launch configuration (LCs)
@@ -11,9 +11,7 @@
 - Supports multiple instance type - spot, on-demand and ec2 dedicated hosts
 - Can have multiple versions
 
-
-## ASG Scaling Policies and Scheduled Actions: 
-### Overview
+### ASG Scaling Policies and Scheduled Actions
 - __Auto Scaling groups__:
   - are collections of Amazon EC2 instances that enable automatic scaling and fleet management features.
     These features help you maintain the health and availability of your applications.
@@ -24,7 +22,10 @@
         - __Manual Scaling__
         - __Predictive scaling__
         - __Maintain current instance levels__
+- ASG checks ec2 status checks, and can also use elb health check
 
+### AutoScaling Lifecycle hooks for configuring policies
+- 
 
 
 
